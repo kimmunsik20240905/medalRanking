@@ -1,0 +1,110 @@
+#root {
+  max-width: 1200px;
+  min-width: 800px;
+  margin: 40px auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #064487;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 32px;
+  line-height: 1.1;
+  color: #fff;
+}
+
+h1 img{
+  width: 100px;
+}
+
+.inputWrap {
+  padding: 20px 5px;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  gap:5px;
+}
+
+.inputWrap input{
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 9.5px 5px;
+  border: 1px solid transparent;
+  flex: 1; 
+}
+
+.inputWrap button{
+  color: #fff; 
+  background-color:#2196f3; 
+  font-weight:bold;
+  min-width: 74px;
+}
+
+.tabWrap {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+}
+
+.tabWrap button{
+  border-bottom-left-radius : 0px;
+  border-bottom-right-radius : 0px;
+  background-color:#e0e0e0; 
+  font-weight:bold;
+  color: #777777; 
+  margin:0px 3px;
+  flex: 1; 
+}
+
+.tabWrap button.active{
+  background-color:#c6e5fd; 
+  color: #282828; 
+}
+
+button {
+  width: 74px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  padding: 8px 0;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+.listWrap{
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.listWrap table{
+  width:100%;
+}
+
+.listWrap table thead tr th{
+  background-color: #0476b9 ;
+  color: #fff;
+  height: 50px;
+}
+
+.listWrap table thead tr th img{
+  width: 20px;
+  position: relative;
+  top: 4px;
+}
+
+.listWrap table tbody tr td{
+  background-color: #fff;
+  color: #1a1a1a;
+  padding:5px 0px ;
+  border-bottom: 1px solid #d5d5d5;
+}
+
+.listWrap button{
+  color: #fff;
+  background-color: #e12f2f;
+}
